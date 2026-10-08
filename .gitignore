@@ -1,0 +1,12 @@
+# Compressed archives
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+
+# Local reference documents
+/refer/
