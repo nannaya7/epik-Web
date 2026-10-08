@@ -2,3 +2,110 @@
 :root{--green:#177d75;--paper:#f2f7f8;--ink:#163b49;--muted:#536d79;--line:#dce8e9}header{background:#ffffffed;backdrop-filter:blur(14px)}.nav-contact{border-radius:30px;padding:9px 20px}.hero{background:#e8f2f4;color:var(--ink)}.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 44%}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(242,248,249,.97) 0%,rgba(242,248,249,.90) 32%,rgba(242,248,249,.40) 57%,rgba(242,248,249,.03) 100%)}.hero-inner{display:block;min-height:660px;padding-top:110px;padding-bottom:110px}.hero-copy{max-width:670px}.hero h1{font-size:clamp(38px,3.75vw,59px);line-height:1.4;letter-spacing:-.06em}.hero em{color:#1b6f6b}.hero .eyebrow{color:#306e74;font-size:12px}.hero .intro{color:#3e6472;font-size:18px}.hero .text-link{color:#244b5b;border-color:#86afb3}.button{border-radius:28px;padding:14px 26px}.hero .mint{background:#176f68;color:#fff;box-shadow:0 7px 20px #155b6420}.hero .mint:hover{background:#11574f}.hero-bottom{border:0;background:#ffffffcc;color:#426573;font-size:12px;backdrop-filter:blur(8px)}.hero-bottom span:last-child{font-size:11px}.section{padding-top:90px;padding-bottom:90px}h2{font-weight:600}.research-cards{gap:28px}.research-cards article{border:0;border-radius:16px;box-shadow:0 5px 22px #123e4c06;padding:32px}.mini-bars{display:none}.research-cards h3{margin-top:28px}.tag{font-size:12px}.research-visual,.product-visual{margin:0 0 36px;display:grid;grid-template-columns:1.15fr 1fr;border-radius:18px;overflow:hidden;background:#e5eff1}.research-visual img,.product-visual img{width:100%;height:100%;min-height:300px;max-height:350px;object-fit:cover;display:block}.research-visual figcaption,.product-visual figcaption{padding:44px 40px;align-self:center}.research-visual figcaption>span,.product-visual figcaption>span{font-size:11px;color:var(--green);letter-spacing:.13em}.research-visual strong,.product-visual strong{display:block;font-size:27px;font-weight:550;line-height:1.5;letter-spacing:-.035em;margin:18px 0}.research-visual p,.product-visual p{font-size:14px;color:var(--muted);margin-bottom:18px}.research-visual small,.product-visual small{font-size:11px;color:#647e89}.tech-note{border-radius:12px}.tech-number{color:#568f8a;font-size:62px}.lab-statement{background:linear-gradient(135deg,#1b575f,#123b4d);border-radius:18px;padding:38px}.ai-diagram{margin:0 0 28px;padding:20px 10px 14px;border:1px solid #dce9e9;border-radius:18px;background:white}.ai-diagram svg{width:100%;height:auto;display:block}.ai-diagram figcaption{text-align:center;font-size:11px;color:#66808a;margin-top:10px}.ai-intro>.outline-tag{font-size:12px;padding:5px 13px}.ai-steps article{padding:25px 0}.ai-steps article:first-child{border-top:0}.ai-steps span{font-size:12px}.technology,.ai-layout{gap:65px}.product-visual{background:#f1f7f7;grid-template-columns:1.2fr 1fr}.manufacturing-grid{gap:35px}.manufacturing-grid article{border-top:1px solid #92bdb8}.manufacturing-grid h3{font-weight:550}.contact{background:#103646}.contact .mint{background:#b9ece0}.contact form input,.contact form select,.contact form textarea{border-radius:8px;background:#204755;border-color:#53717b}details{background:transparent}summary{padding-top:29px;padding-bottom:29px}.principles p,.small{font-size:13px}.role-label{font-size:12px}.footer-bottom{font-size:12px}.section-head>p{max-width:420px}.technology .tabs button{border-radius:0}.manufacturing .small{max-width:900px}@media(min-width:1600px){.hero-inner{max-width:1500px;padding-left:7%}.hero-photo{object-position:center 40%}}@media(max-width:1100px){.hero-inner{min-height:590px;padding-top:90px;padding-bottom:90px}.hero-copy{max-width:560px}.hero h1{font-size:45px}.research-visual figcaption,.product-visual figcaption{padding:30px}.research-visual strong,.product-visual strong{font-size:24px}.technology,.ai-layout{gap:40px}}@media(max-width:800px){.hero-inner{min-height:700px;padding-top:52px;padding-bottom:300px}.hero h1{font-size:38px}.hero-copy{max-width:550px}.hero-photo{object-position:70% bottom}.hero-shade{background:linear-gradient(180deg,#f0f7f9 0%,#f0f7f9ed 40%,#f0f7f966 63%,#f0f7f900 100%)}.hero .intro{font-size:16px}.hero-bottom{font-size:12px;padding:18px 6%}.hero .actions{gap:23px;margin-top:25px}.hero .eyebrow{font-size:11px}.section{padding-top:64px;padding-bottom:64px}.research-visual,.product-visual{grid-template-columns:1fr;border-radius:14px}.research-visual img,.product-visual img{min-height:0;height:240px;max-height:none}.research-visual figcaption,.product-visual figcaption{padding:26px}.research-visual strong,.product-visual strong{font-size:24px;margin:12px 0}.research-cards article{border-radius:12px;padding:27px}.research-cards h3{margin-top:18px}.ai-diagram{padding:12px 5px}.ai-diagram figcaption{font-size:10px;padding:0 5px}.lab-statement{border-radius:14px}.technology,.ai-layout{gap:25px}.section-head>p{max-width:none}.principles p{font-size:13px}.small{font-size:12px}}@media(max-width:380px){.hero h1{font-size:33px}.hero-inner{min-height:660px}.hero .actions{gap:14px}.hero .button{padding:12px 18px;font-size:14px}}
 @media(max-width:800px){.hero-photo{top:auto;bottom:0;height:380px;object-position:76% center}.hero-shade{background:linear-gradient(180deg,#f0f7f9 0%,#f0f7f9 43%,#f0f7f9b0 58%,#f0f7f900 75%)}}
 .brand-logo{display:block;width:214px;height:auto;max-height:68px;object-fit:contain}.brand{letter-spacing:0}footer .brand-logo{width:260px;max-height:none}@media(max-width:800px){.brand-logo{width:177px;max-height:56px}footer .brand-logo{width:225px}}
+
+/* Mobile layout: keep the desktop composition and give small screens their own rhythm. */
+@media (max-width: 800px) {
+  html { scroll-padding-top: 84px; }
+  body { -webkit-text-size-adjust: 100%; }
+  header { padding-left: max(5%, env(safe-area-inset-left)); padding-right: max(5%, env(safe-area-inset-right)); }
+  .menu { gap: 10px; min-width: 74px; padding: 0 4px 0 12px; justify-content: flex-end; }
+  .menu-icon { position: relative; display: block; width: 22px; height: 20px; }
+  .menu-icon i { position: absolute; left: 0; width: 22px; height: 2px; background: currentColor; border-radius: 2px; transition: transform .2s, top .2s; }
+  .menu-icon i:first-child { top: 6px; }
+  .menu-icon i:last-child { top: 14px; }
+  .menu[aria-expanded="true"] .menu-icon i:first-child { top: 10px; transform: rotate(45deg); }
+  .menu[aria-expanded="true"] .menu-icon i:last-child { top: 10px; transform: rotate(-45deg); }
+  #navigation { top: 72px; padding: 12px max(5%, env(safe-area-inset-left)) 20px; max-height: calc(100vh - 72px); max-height: calc(100dvh - 72px); overflow-y: auto; border-bottom: 1px solid var(--line); }
+  #navigation a { display: flex; align-items: center; min-height: 52px; padding: 12px 14px; border-radius: 8px; }
+  #navigation a.active { background: var(--paper); }
+  #navigation .nav-contact { margin-top: 8px; background: #177d75; color: white; justify-content: center; }
+  .hero { display: grid; grid-template-columns: minmax(0, 1fr); background: #f0f7f9; }
+  .hero-inner { grid-area: 1 / 1; width: 100%; min-height: 0; padding: 44px 6% 28px; }
+  .hero-copy { max-width: 560px; }
+  .hero h1 { font-size: clamp(32px, 5.8vw, 40px); line-height: 1.42; margin-bottom: 20px; }
+  .hero .eyebrow { letter-spacing: .12em; margin-bottom: 20px; }
+  .hero .intro { font-size: 16px; line-height: 1.85; margin-bottom: 0; }
+  .hero .intro br { display: none; }
+  .hero .actions { flex-wrap: wrap; gap: 12px 22px; margin-top: 24px; }
+  .hero .button { min-height: 48px; padding: 12px 22px; }
+  .hero .text-link { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 0; }
+  .hero-photo { position: relative; inset: auto; grid-area: 2 / 1; display: block; width: 100%; height: clamp(230px, 48vw, 340px); object-fit: cover; object-position: 76% 48%; }
+  .hero-shade { grid-area: 2 / 1; position: relative; inset: auto; z-index: 1; pointer-events: none; background: linear-gradient(180deg, #f0f7f9 0%, #f0f7f933 24%, transparent 55%); }
+  .hero-bottom { grid-area: 3 / 1; padding: 16px 6%; font-size: 11px; line-height: 1.8; }
+  .section { padding-left: max(6%, env(safe-area-inset-left)); padding-right: max(6%, env(safe-area-inset-right)); }
+  .section > div, .section-head > div, .ai-layout > div, .form-row > div { min-width: 0; }
+  .section p { overflow-wrap: anywhere; }
+  .section-head > p br, .technology > div > p br, .contact > div > p br { display: none; }
+  .research-visual img, .product-visual img { height: clamp(210px, 45vw, 320px); }
+  .research-visual figcaption, .product-visual figcaption { padding: 26px 24px; }
+  .research-visual p br, .product-visual p br { display: none; }
+  .research-cards { gap: 16px; }
+  .research-cards article { padding: 26px; }
+  .research-cards p { margin-bottom: 20px; }
+  .tag { overflow-wrap: anywhere; }
+  .tabs button { min-height: 52px; }
+  #tech-panel { min-height: 0; padding-bottom: 16px; }
+  .tech-number { font-size: 52px; margin: 26px 0 18px; }
+  #tech-panel h3 { font-size: 21px; }
+  .tech-note { padding: 18px 20px; }
+  .ai-intro > .outline-tag { margin-bottom: 18px; }
+  .ai-diagram { padding: 16px 8px; }
+  .ai-steps article { padding: 24px 0; }
+  .ai-steps article:first-child { border-top: 1px solid #cbdcda; }
+  .pipeline-list summary { display: grid; grid-template-columns: 36px minmax(0, 1fr) 24px; gap: 8px 12px; padding: 24px 0; }
+  .pipe-code { grid-area: 1 / 1; width: auto; align-self: start; padding-top: 3px; }
+  summary > span:nth-child(2) { grid-area: 1 / 2; }
+  summary strong { font-size: 18px; line-height: 1.55; }
+  summary small { display: block; margin-top: 5px; font-size: 13px; line-height: 1.7; }
+  summary > .outline-tag { display: inline-block; grid-area: 2 / 2; margin: 3px 0 0; justify-self: start; padding: 2px 10px; }
+  .plus { grid-area: 1 / 3; margin: 0; min-width: 0; align-self: start; text-align: center; }
+  .pipe-detail { padding: 0 0 26px 48px; gap: 20px; }
+  .stages { gap: 10px; }
+  .stages span { line-height: 1.7; }
+  .contact { gap: 28px; }
+  .contact-note { margin-top: 28px; padding-top: 22px; }
+  .form-row { grid-template-columns: 1fr; gap: 18px; }
+  .contact form input, .contact form select, .contact form textarea { font-size: 16px; padding: 13px 14px; }
+  .contact form input, .contact form select { min-height: 50px; }
+  .contact form textarea { min-height: 150px; }
+  .contact form .button { min-height: 50px; width: 100%; }
+  #form-status { overflow-wrap: anywhere; }
+  footer { padding: 36px 6% max(24px, env(safe-area-inset-bottom)); }
+  .footer-bottom { line-height: 1.8; }
+  .footer-bottom a { display: inline-flex; align-items: center; min-height: 44px; align-self: flex-start; color: var(--green); }
+}
+@media (max-width: 600px) {
+  .section { padding-top: 56px; padding-bottom: 56px; }
+  h2 { font-size: clamp(26px, 6.7vw, 32px); line-height: 1.5; margin-bottom: 20px; }
+  .section h2 br { display: none; }
+  .eyebrow { font-size: 11px; letter-spacing: .11em; }
+  .hero-inner { padding-top: 36px; }
+  .hero .eyebrow { font-size: 10px; }
+  .hero h1 { font-size: clamp(30px, 8.4vw, 38px); }
+  .hero-bottom { text-align: center; }
+  .about-copy > .large { font-size: 21px; }
+  .about-copy > .large br { display: none; }
+  .principles { grid-template-columns: 1fr; gap: 0; padding-top: 8px; margin-top: 26px; }
+  .principles > div { display: grid; grid-template-columns: 28px minmax(0, 1fr); column-gap: 12px; padding: 20px 0; border-bottom: 1px solid var(--line); }
+  .principles span { grid-column: 1; grid-row: 1 / 3; padding-top: 3px; }
+  .principles h3 { grid-column: 2; margin: 0 0 5px; font-size: 17px; }
+  .principles p { grid-column: 2; font-size: 14px; }
+  .principles p br { display: none; }
+  .research-visual strong, .product-visual strong { font-size: 23px; }
+  .research-cards h3 { margin: 14px 0 12px; }
+  .tech-note strong { font-size: 13px; }
+  .ai-intro h3 { font-size: 23px; }
+  .manufacturing-grid { gap: 24px; }
+  .manufacturing-grid article { padding-top: 20px; }
+  footer .brand-logo { width: 210px; }
+}
+@media (max-width: 360px) {
+  .brand-logo { width: 160px; }
+  .hero .actions { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .hero .button { width: 100%; }
+  .hero .text-link { align-self: center; }
+  .research-cards article, .research-visual figcaption, .product-visual figcaption { padding: 22px; }
+  .pipeline-list summary { grid-template-columns: 30px minmax(0, 1fr) 22px; gap: 8px 10px; }
+  summary strong { font-size: 17px; }
+  .pipe-detail { padding-left: 40px; }
+}

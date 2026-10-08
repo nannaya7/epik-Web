@@ -1,10 +1,13 @@
 'use strict';
 const menu = document.querySelector('.menu');
 const navigation = document.querySelector('#navigation');
-function closeMenu(){navigation.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','메뉴 열기');}
-menu.addEventListener('click',()=>{const open=navigation.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'메뉴 닫기':'메뉴 열기');});
+function closeMenu(){navigation.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','메뉴 열기');menu.querySelector('.menu-label').textContent='메뉴';}
+menu.addEventListener('click',()=>{const open=navigation.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'메뉴 닫기':'메뉴 열기');menu.querySelector('.menu-label').textContent=open?'닫기':'메뉴';});
 navigation.querySelectorAll('a').forEach(link=>link.addEventListener('click',closeMenu));
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&navigation.classList.contains('open')){closeMenu();menu.focus();}});
+document.addEventListener('click',event=>{if(navigation.classList.contains('open')&&!navigation.contains(event.target)&&!menu.contains(event.target))closeMenu();});
+const mobileViewport=window.matchMedia('(max-width:800px)');
+mobileViewport.addEventListener('change',closeMenu);
 const copy={"signal": ["01", "질환과 관련된 지표를 탐색합니다.", "후보 바이오마커를 선정하고, 측정 특성과 데이터 품질을 검토해 분석의 기초를 마련합니다.", ["연구 목적에 따른 후보 지표 선정", "측정 변동 요인과 데이터 품질 검토", "질환 관련성에 대한 가설 수립"]], "analysis": ["02", "여러 지표를 통합해 분석합니다.", "개별 바이오마커의 특성과 지표 간 관계를 분석해 질환과 관련된 패턴을 찾습니다.", ["데이터 전처리와 특징 추출", "다중 바이오마커의 통합 분석", "AI 개발도구를 활용한 모델 설계·해석"]], "validation": ["03", "모델의 성능과 재현성을 평가합니다.", "분석 결과가 새로운 데이터와 다양한 측정 조건에서도 유지되는지 검토하고, 적용 범위와 한계를 확인합니다.", ["학습·검증·평가 데이터 분리", "민감도·특이도 등 성능 지표 평가", "측정 조건과 데이터 편향 검토"]]};
 const tabs=[...document.querySelectorAll('[role="tab"]')];
 function activate(tab){tabs.forEach(t=>{t.setAttribute('aria-selected',String(t===tab));t.tabIndex=t===tab?0:-1;});const data=copy[tab.dataset.tab];const panel=document.querySelector('#tech-panel');panel.setAttribute('aria-labelledby',tab.id);panel.innerHTML=`<span class="tech-number">${data[0]}</span><h3>${data[1]}</h3><p>${data[2]}</p><ul>${data[3].map(item=>`<li>${item}</li>`).join('')}</ul>`;}
