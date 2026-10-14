@@ -2,7 +2,7 @@
 /* Location and contact information */
 .location { background: var(--paper); }
 .location-layout { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 36px; align-items: start; }
-.location-map { margin: 0; overflow: hidden; background: white; border: 1px solid var(--line); border-radius: 18px; }
+.location-map { min-width: 0; max-width: 100%; margin: 0; overflow: hidden; background: white; border: 1px solid var(--line); border-radius: 18px; }
 .location-map > a { display: block; }
 .location-map img { display: block; width: 100%; height: auto; }
 .location-map figcaption { padding: 16px 20px; color: var(--muted); font-size: 12px; line-height: 1.8; }
@@ -23,6 +23,8 @@
   .location-layout { grid-template-columns: minmax(0, 1fr); gap: 24px; }
   .location-info { grid-row: 1; padding: 28px; border-radius: 14px; }
   .location-map { border-radius: 14px; }
+  .location-map > a { display: flex; justify-content: center; padding: 12px; }
+  .location-map img { width: auto; max-width: 100%; height: auto; max-height: 260px; max-height: min(260px, 38svh); object-fit: contain; }
 }
 @media (max-width: 380px) {
   .location-info { padding: 24px; }
