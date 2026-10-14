@@ -32,7 +32,7 @@ Git으로 최신 파일을 관리합니다. 기존 `server-upload.zip`은 더 �
 
 ## 이미지 후보
 
-현재 적용된 배경은 `images/hero-human.webp`입니다.<br>
+현재 적용된 배경은 `images/hero-biomarker-ai.webp`입니다.<br>
 `design-assets/hero-options`에는 연구자 협업 이미지 5장, 자연·AI 이미지, 자연·AI·DNA 이미지가 있습니다.<br>
 이 후보들은 아직 홈페이지에 적용하지 않았습니다.<br>
 `images` 폴더에 원본 로고와 색상 수정 로고도 함께 보관했습니다.
